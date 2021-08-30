@@ -19,6 +19,9 @@ public class VariablesAndTypes {
 		char letter = 'A';
 		char symbol = '?';
 		
+		//once initialized, constants (created with 'final') cannot be changed
+		final int CON = 7;
+		
 		//Output variables
 		System.out.println("Score: " + score);
 		System.out.println("x: " + x);
@@ -27,6 +30,7 @@ public class VariablesAndTypes {
 		System.out.println("loggedIn: " + loggedIn);
 		System.out.println("letter: " + letter);
 		System.out.println("symbol: " + symbol);
+		
 	}
 
 }
